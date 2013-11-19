@@ -1,6 +1,8 @@
 # IsinCodeGenerator
 
-TODO: Write a gem description
+Simple random ISIN Code generator.
+
+See http://en.wikipedia.org/wiki/International_Securities_Identification_Number.
 
 ## Installation
 
@@ -18,7 +20,8 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+    IsinCodeGenerator.make("LU")
+    #=> LU7994567430
 
 ## Contributing
 
