@@ -1,0 +1,4 @@
+#!/usr/bin/ruby
+require "isin_code_generator"
+
+ARGV.map{|home_country_iso| puts IsinCodeGenerator.make(home_country_iso)}

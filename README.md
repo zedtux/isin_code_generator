@@ -20,8 +20,14 @@ Or install it yourself as:
 
 ## Usage
 
+In an irb session:
+    require 'isin_code_generator'
     IsinCodeGenerator.make("LU")
     #=> LU7994567430
+
+Or from the console:
+    $ isin_gen LU
+    LU2870209652
 
 ## Contributing
 
